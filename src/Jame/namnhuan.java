@@ -25,9 +25,9 @@ public class namnhuan {
         }
 
         if(namNhuan){
-            System.out.printf("%d Năm nhuận", year);
+            System.out.println(" Năm nhuận");
         } else {
-            System.out.printf("%d Không phải năm nhuận", year);
+            System.out.println(" Không phải năm nhuận");
         }
     }
 }
