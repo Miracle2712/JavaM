@@ -1,4 +1,4 @@
-package vonglapJava;
+package mang;
 
 import java.util.Scanner;
 
