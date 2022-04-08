@@ -1,4 +1,4 @@
-package mang;
+package Mang;
 
 import java.util.Scanner;
 

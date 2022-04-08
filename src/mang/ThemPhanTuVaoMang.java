@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class ThemPhanTuVaoMang {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5};
+        int[] arr = {1,2,3,4,5,6};
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập số cần thêm: ");
+        System.out.print("Nhập số cần chèn: ");
         int x = sc.nextInt();
-        System.out.print("Nhập vị trí cần thêm: ");
+        System.out.print("Nhập vị trí cần chèn: ");
         int index = sc.nextInt();
         int[] temp = new int[arr.length+1];
-        for (int i=0 ; i<index ; i++){
+        for (int i = 0; i < index; i++) {
             temp[i] = arr[i];
         }
         temp[index] = x;
@@ -22,11 +22,5 @@ public class ThemPhanTuVaoMang {
         for (int i: arr) {
             System.out.print(i + "\t");
         }
-
-
     }
-
-
-
-
 }
